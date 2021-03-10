@@ -13,6 +13,34 @@
     display: none !important;
   }
 
+  /***************
+   * ToyShop Tab Colours *
+   ***************/
+.multiSiteWrapper {
+  background: #ffffff;
+  padding-left: unset;
+}
+
+.multiSiteWrapper a:after {
+  border-bottom: none;
+}
+
+.multiSiteWrapper a {
+  background: #0d943f;
+}
+
+.multiSiteWrapper a {
+  color: white;
+}
+
+.multiSiteWrapper a.disabled {
+  background: #0d5d9c;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 0;
+  color: white;
+}
+
 /***************
  * iPhone Mobile Horizontal Scroll Fix *
  ***************/
