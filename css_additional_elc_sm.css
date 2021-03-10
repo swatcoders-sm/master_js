@@ -13,6 +13,42 @@
     display: none !important;
   }
 
+  /***************
+   * ELC Tab Colours *
+   ***************/
+   @media only screen and (max-width: 1024px) {
+     .multiSiteWrapper a {
+       background: #0d5d9c;
+     }
+   }
+
+   @media only screen and (min-width: 1024px) {
+     .multiSiteWrapper a:first-child {
+       background: #0d5d9c;
+       padding-left: 30px;
+       padding-right: 30px;
+       margin-right: 0;
+     }
+   }
+
+   .multiSiteWrapper a:after {
+     border-bottom: none;
+   }
+
+   .multiSiteWrapper {
+     padding-left: unset;
+   }
+
+   .multiSiteWrapper a {
+     color: white;
+   }
+
+   .multiSiteWrapper a.disabled {
+     background: #0d943f;
+     color: white;
+   }
+
+
 /***************
  * iPhone Mobile Horizontal Scroll Fix *
  ***************/
@@ -57,7 +93,7 @@
   }
 
   .etCustServeMsgCarousel a {
-    color: rgb(64, 126, 201);
+    color: #0d943f;
     font-weight: 400;
     font-family: "VAG Rounded Std Bold", "Tahoma Bold", sans-serif;
     font-size: 14px;
