@@ -153,9 +153,8 @@ $(function() {
     refreshKlarna();
   }
 
-  if(website === "ToyShop") {
+//Run Strapline Animation on all Pages & Both Websites
     straplineAnimation();
-  }
 
   if (pageType == 'Wishlist') {
     $(function() {
