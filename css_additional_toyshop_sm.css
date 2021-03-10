@@ -1,0 +1,144 @@
+/***************
+ * Click & Collect Journey Updates *
+ ***************/
+  .resultStock.negative {
+    display: block;
+  }
+
+  .resultStock {
+    display: none;
+  }
+
+  .leadTime.js-store-leadtime {
+    display: none !important;
+  }
+
+  /***************
+   * ToyShop Tab Colours *
+   ***************/
+.multiSiteWrapper {
+  background: #ffffff;
+  padding-left: unset;
+}
+
+.multiSiteWrapper a:after {
+  border-bottom: none;
+}
+
+.multiSiteWrapper a {
+  background: #0d943f;
+}
+
+.multiSiteWrapper a {
+  color: white;
+}
+
+.multiSiteWrapper a.disabled {
+  background: #0d5d9c;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 0;
+  color: white;
+}
+
+/***************
+ * iPhone Mobile Horizontal Scroll Fix *
+ ***************/
+  @media (max-width: 639px) {
+    .multiSiteWrapper {
+      font-size: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .multiSiteWrapper a {
+      width: calc(50% - 2px);
+    }
+
+    footer {
+      padding-right: 0;
+      width: 100%;
+    }
+  }
+
+/***************
+ * Strapline Code *
+ ***************/
+
+  .owl-carousel.etCustServeMsgCarousel .owl-controls {
+    display: none !important;
+  }
+
+  .etCustServeMsgCarousel {
+    padding: 4px 5px;
+    background: rgb(255, 255, 255);
+    display: block !important;
+  }
+
+  .etCustServeMsgCarousel .item .bannr_tab {
+    margin-top: 0 !important;
+  }
+
+  .etCustServeMsgCarousel .textHoldStrap {
+    text-align: center !important;
+    float: none !important;
+  }
+
+  .etCustServeMsgCarousel a {
+    color: rgb(64, 126, 201);
+    font-weight: 400;
+    font-family: "VAG Rounded Std Bold", "Tahoma Bold", sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .etCustServeMsgCarousel a i {
+    font-size: 15px;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-top: -2px;
+  }
+
+  .etCustServeMsgCarousel .js-owl-sitewide-message {
+    background: rgb(13, 148, 63);
+  }
+
+  .js-mainHeader klarna-placement {
+    display: block;
+    background: rgb(0, 0, 0);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 0;
+    position: relative;
+  }
+
+  @media (max-width: 767px) {
+    .etCustServeMsgCarousel {
+      padding: 6px 5px 5px 5px;
+    }
+
+    .owl-carousel.etCustServeMsgCarousel .item:nth-child(n + 2) {
+      display: none
+    }
+  }
+
+  @media (max-width: 639px) {
+    .breadcrumb-section {
+      display: none;
+    }
+  }
+
+  @media (max-width: 580px) {
+    .etCustServeMsgCarousel a {
+      font-size: 14px;
+      letter-spacing: normal;
+      padding-top: 2px;
+    }
+
+    .etCustServeMsgCarousel a i {
+      margin-top: -2px;
+    }
+  }
