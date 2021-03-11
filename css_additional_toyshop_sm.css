@@ -42,6 +42,21 @@
 }
 
 /***************
+ * Remove ToyShop Homepage Banner Curve *
+ ***************/
+.page-homepage .rotating-image-componet .owl-item a:after {
+  background:none
+}
+
+/***************
+ * Remove Continue Shopping Button - Cart *
+ ***************/
+
+.page-cartPage .btn--continue-shopping {
+  display:none;
+}
+
+/***************
  * iPhone Mobile Horizontal Scroll Fix *
  ***************/
   @media (max-width: 639px) {
